@@ -182,7 +182,13 @@ def main():
     print("Welcome to the library!")
     while True:
         cmd = input(
-            "What would you like to do? \nPress 'a' to add a book, 'd' to delete a book, 'l' to loan out a book, 'r' to return a book, 's' to search for a book, and 'q' to quit.\n"
+            "What would you like to do? \n"
+            + "Press 'a' to add a book, "
+            + "'d' to delete a book, "
+            + "'l' to loan out a book, "
+            + "'r' to return a book, "
+            + "'s' to search for a book, "
+            + "and 'q' to quit.\n"
         )
         if cmd == "a":
             addBook()
